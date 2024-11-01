@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @import "styles.css";
+        </style>
+    </head>
+    <body>
+        <h1>Form Example</h1>
+        <form action="/submit" method="post">
+            <p>Text Input</p>
+            <input type="text" name="Username" placeholder="Username"><br><br>
+            <p>Passwordn Input</p>
+            <input text="password" name="password" placeholder="Password"><br><br>
+            <p>Radio Buttons</p>
+            <input type="radio" name="性别" value="Male">Male<br>
+            <input type="radio" name="性别" value="Female">Female<br>
+            <p>Checkbox</p>
+            <input type="checkbox" name="爱好" value="Coding">Coding<br>
+            <input type="checkbox" name="爱好" value="Sports">Sports<br>
+            <input type="checkbox" name="爱好" value="Music">Music<br>
+            <input type="checkbox" name="爱好" value="Travel">Travel<br>
+            <input type="checkbox" name="爱好" value="Reading">Reding<br>
+            <input type="checkbox" name="爱好" value="Gaming">Gaming<br>
+            <p>Select Option</p>
+            <select name="nation">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+                <option value="germany">Germany</option>
+                <option value="france">France</option>
+                <option value="japan">Japan</option>
+                <option value="india">India</option>
+                <option value="china">China</option>
+                <option value="brazil">Brazil</option>
+            </select><br><br>
+            <p>Textarea</p>
+            <textarea name="comments" rows="4" cols="50" placeholder="Comments"></textarea><br><br>
+            <p>Submit and Reset Buttons</p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
